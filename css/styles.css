@@ -1,0 +1,46 @@
+#sidebar{
+  float:left;
+  width: 30%;
+  font-family: cursive;
+  font-size: 30px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+
+
+
+}
+body{
+  background-image: url(../images/coldplayOG.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+
+
+}
+#listitems{
+  list-style-type: none;
+  color:#7B68EE;
+  height: 100%;
+
+
+}
+img.image1{
+  float:right;
+  width: 400px;
+  margin-top: 50px;
+  margin-right: 40%;
+  border: 2px solid #9370DB;
+
+}
+img:hover{
+  border-color: #FFA500;
+}
+a{
+  color:#7B68EE;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
